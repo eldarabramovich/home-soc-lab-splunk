@@ -1,0 +1,15 @@
+2026-06-10 09:14:22 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=eldar Source_IP=192.168.1.25 Logon_Type=3 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:14:48 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=eldar Source_IP=192.168.1.25 Logon_Type=3 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:15:13 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=eldar Source_IP=192.168.1.25 Logon_Type=3 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:15:39 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=eldar Source_IP=192.168.1.25 Logon_Type=3 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:16:05 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=eldar Source_IP=192.168.1.25 Logon_Type=3 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:18:44 host=WIN-ENDPOINT-01 EventCode=4624 Account_Name=eldar Source_IP=192.168.1.25 Logon_Type=3 Status=Success Logon_Process=NtLmSsp
+2026-06-10 09:21:10 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=admin Source_IP=192.168.1.80 Logon_Type=10 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:21:31 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=admin Source_IP=192.168.1.80 Logon_Type=10 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:21:53 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=admin Source_IP=192.168.1.80 Logon_Type=10 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:22:14 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=admin Source_IP=192.168.1.80 Logon_Type=10 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:22:36 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=admin Source_IP=192.168.1.80 Logon_Type=10 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:22:58 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=admin Source_IP=192.168.1.80 Logon_Type=10 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:23:20 host=WIN-ENDPOINT-01 EventCode=4625 Account_Name=admin Source_IP=192.168.1.80 Logon_Type=10 Status=Failed Failure_Reason="Unknown user name or bad password"
+2026-06-10 09:24:01 host=WIN-ENDPOINT-01 EventCode=4740 Account_Name=admin Source_IP=192.168.1.80 Status=Account_Locked_Out
+2026-06-10 09:35:12 host=WIN-ENDPOINT-01 EventCode=4624 Account_Name=service_backup Source_IP=192.168.1.50 Logon_Type=5 Status=Success Logon_Process=Advapi
