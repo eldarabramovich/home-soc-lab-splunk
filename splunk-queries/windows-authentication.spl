@@ -1,0 +1,35 @@
+# Windows Authentication Splunk Queries
+
+# 1. Show all uploaded Windows authentication sample events
+
+index=main sourcetype=windows_auth_sample
+
+# 2. Show only failed Windows logon events
+
+index=main sourcetype=windows_auth_sample EventCode=4625
+
+# 3. Count failed logons by account, source IP, and logon type
+
+index=main sourcetype=windows_auth_sample EventCode=4625
+| stats count by Account_Name, Source_IP, Logon_Type
+| sort - count
+
+# 4. Show failed logons for the admin account only
+
+index=main sourcetype=windows_auth_sample EventCode=4625 Account_Name=admin
+
+# 5. Authentication timeline: failed logons, successful logons, and account lockout events
+
+index=main sourcetype=windows_auth_sample (EventCode=4625 OR EventCode=4624 OR EventCode=4740)
+| table _time, EventCode, Account_Name, Source_IP, Logon_Type, Status
+| sort _time
+
+# 6. Check whether the admin account had a successful login
+
+index=main sourcetype=windows_auth_sample EventCode=4624 Account_Name=admin
+
+# 7. Search for account lockout events
+
+index=main sourcetype=windows_auth_sample EventCode=4740
+| table _time, Account_Name, Source_IP, Status
+| sort _time
